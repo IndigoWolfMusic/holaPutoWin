@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="GOLGng" name="holaPuto" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="Ytkewv" name="holaPuto">
+    <GROUP id="{032323A2-AB9B-94AF-825C-C97DA4516E65}" name="Source">
+      <FILE id="mdNHFF" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="ZfkDEc" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="MQnRVf" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="holaPuto"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="holaPuto"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../SoftwareB/ForkSource/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../SoftwareB/ForkSource/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../SoftwareB/ForkSource/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../SoftwareB/ForkSource/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../SoftwareB/ForkSource/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
